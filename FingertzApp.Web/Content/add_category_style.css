@@ -1,0 +1,107 @@
+.add-category{
+	float: left;
+	width: 480px;
+	height: 461px;
+	background-color: #ffffff;
+	border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.add-category h1{
+	float: left;
+	width: 358px;
+	height: 35px;
+	border-radius: 6px 0px 0px 0px;
+	color: #ffffff;
+	font-family: "OpenSansBold";
+	font-size: 15px;
+	font-weight: normal;
+	text-transform:uppercase;
+	background: url("../images/title-add-category.png") no-repeat 41px 15px #1d8eb8;
+	padding-top: 15px;
+	padding-left: 72px;
+	
+}
+.add-category .close{
+	float: right;
+	width: 50px;
+	height: 50px;
+	border-radius: 0px 6px 0px 0px;
+	display: block;
+	background: url("../images/close-add-category.png") no-repeat 16px 14px  #28b1e4;
+	
+}
+.add-category .form-category{
+	float:left;
+	width: 406px;
+	height: 341px;
+	margin-left: 37px;
+	margin-top: 37px;
+}
+.add-category .form-category label{
+	font-size: 15px;
+	font-family: "OpenSansRegular";
+	color: #383838;
+	font-weight: normal;
+}
+.add-category .form-category input[ type="text"]{
+	font-size: 14px;
+	font-family: Arial;
+	color: #696969;
+	font-weight: normal;
+}
+.add-category .form-category textarea{
+	font-size: 14px;
+	font-family: Arial;
+	color: #696969;
+	font-weight: normal;
+}
+.add-category .form-category label[for="categories-name"]{
+	width:400px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 3px;
+}
+.add-category .form-category #categories-name{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:389px;
+	height: 25px;
+	margin-top: 12px;
+	padding: 6px 4px;
+}
+.add-category .form-category label[for="description"]{
+	width:400px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 34px;
+}
+.add-category .form-category #description{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:389px;
+	height: 116px;
+	margin-top: 12px;
+	padding: 6px 4px;
+}
+.add-category .form-category .btn-add-category{
+	float: left;
+	width:150px;
+	height: 40px;
+	background: url("../images/btn-add-category.png") no-repeat;
+	margin-left: 130px;
+	margin-top: 38px;
+	border: none;
+	cursor: pointer;
+}
+.add-category .form-category .btn-cancel-category{
+	float: left;
+	width:102px;
+	height: 40px;
+	background: url("../images/btn-cancel-category.png") no-repeat;
+	margin-left: 15px;
+	margin-top: 38px;
+	border: none;
+	cursor: pointer;
+}

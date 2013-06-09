@@ -1,0 +1,11 @@
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\FingertzApp.Repository.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\FingertzApp.Repository.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\EntityFramework.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\FingertzApp.DAL.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\FingertzApp.Model.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\FingertzApp.DAL.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\FingertzApp.Model.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\bin\Debug\EntityFramework.xml
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\obj\Debug\FingertzApp.Repository.csprojResolveAssemblyReference.cache
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\obj\Debug\FingertzApp.Repository.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Repository\obj\Debug\FingertzApp.Repository.pdb

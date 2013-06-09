@@ -1,0 +1,43 @@
+.error{
+	background:url("../images/warning.png") no-repeat 97% 9px #fcfcfc !important;
+	border: 1px solid #f2b08c !important;
+}
+.pass{
+	background:url("../images/pass.png") no-repeat 97% 9px #fcfcfc !important;
+}
+.hidden{
+	display: none;
+}
+.null-field{
+}
+.alert-error{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 81px;
+	z-index: 15;
+	background-color: #a31a1a;
+}
+.alert-error p{
+	margin: 10px auto;
+	width:678px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #fdfbfb;
+	font-weight: bold;
+}
+.alert-error p .close{
+	margin-left: 1px;
+	margin-right: 3px;
+	margin-top: 1px;
+}
+.alert-error p.detail {
+	margin: 10px auto;
+	width:630px;
+	font-family: Arial;
+	font-size: 14px;
+	color: #fdfbfb;
+	font-weight: normal;
+	font-style:italic;
+}

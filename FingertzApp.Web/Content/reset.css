@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, form, ul, ul li, ol, ol li, dl, dl dt, dl dd, blockquote {
+	margin: 0;
+	padding: 0;
+}
+ul, ul li, ol, ol li {
+	list-style: none outside none;
+}
+img {
+	border: 0 none;
+}
+a {
+	outline: 0 none;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+fieldset {
+	background: none repeat scroll 0 center;
+	border: 0 none;
+	margin: 0;
+	padding: 0;
+}
+fieldset legend {
+	display: none;
+}
+input[type="image"], input[type="submit"], input[type="button"] {
+	outline: 0 none;
+}
+input {
+	margin: -1px -2px;
+	vertical-align: baseline;
+}
+html > body input {
+	margin: 0;
+	vertical-align: text-bottom;
+}
+object, embed {
+	outline: 0 none;
+}

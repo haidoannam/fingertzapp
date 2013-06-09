@@ -1,0 +1,197 @@
+.dashed-line{
+	float:left;
+	width:100%;
+	height:1px;
+	margin-top:28px;
+	margin-bottom:10px;
+	border-bottom: 1px dashed #7A7A7A;
+}
+.go-top{
+	position: fixed;
+	right: 10px;
+	bottom: 50px;
+	width: 70px;
+	height: 30px;
+	background: url("../images/go-top.png") no-repeat left top;
+	z-index: 100;
+}
+.go-top a{
+	width: 70px;
+	height: 30px;
+	display: block;
+}
+#main .content .project-manager{
+	float: left;
+	min-height: 400px;
+	width: 1172px;
+	padding-bottom: 15px;
+}
+#main .content .project-manager .add-new{
+	float: left;
+	min-height: 350px;
+	width: 271px;
+}
+#main .content .project-manager .add-new .get{
+	float: left;
+	height: 350px;
+	width: 270px;
+	margin-top:42px;
+	background-color: #e45e15;
+	border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+#main .content .project-manager .add-new .get a{
+	float: left;
+	height: 143px;
+	width: 217px;
+	background: url("../images/add-category.png") no-repeat 100px 112px;
+	font-size: 19px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 53px;
+	padding-top: 207px;
+	font-family: "OpenSansRegular";
+}
+#main .content .project-manager .category{
+	float: left;
+	min-height: 477px;
+	width: 900px;
+	margin-top: 13px;
+	margin-left: 0px;
+}
+#main .content .project-manager .category .item{
+	float: left;
+	height: 350px;
+	width: 268px;
+	margin-left: 30px;
+	margin-top:30px;
+/* 	border: 1px solid red; */
+	background-color: #FFFFFF;
+	border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+#main .content .project-manager .category .item h1{
+	float: left;
+	width: 177px;
+	height: 35px;
+	border-radius: 6px 0px 0px 0px;
+	color: #ffffff;
+	font-family: "OpenSansRegular";
+	font-size: 16px;
+	font-weight: normal;
+	background: url("../images/icon-project.png") no-repeat 9px 10px #1b9ccc;
+	padding-top: 14px;
+	padding-left: 42px;
+}
+#main .content .project-manager .category .item h1.orange{
+	background: url("../images/icon-project.png") no-repeat 9px 10px #e45e15;
+}
+#main .content .project-manager .category .item .set{
+	float: right;
+	width: 49px;
+	height: 49px;
+	background-color: #1d8eb8;
+	border-radius: 0px 6px 0px 0px;
+	display: block;
+	background: url("../images/setting-project.png") no-repeat 16px 14px  #1d8eb8;
+	
+}
+#main .content .project-manager .category .item .set.orangebold{
+	background: url("../images/setting-project.png") no-repeat 16px 14px  #cf4d06;
+}
+#main .content .project-manager .category .item img{
+	float: left;
+	width: 268px;
+	height: 225px;
+	border-bottom: 1px solid #f3f3f3;
+}
+#main .content .project-manager .category .item h2{
+	float: left;
+	width: 268px;
+	height: 44px;
+}
+#main .content .project-manager .category .item h2 a{
+	float: left;
+	color: #383838;
+	font-size: 12px;
+	font-family: "OpenSansRegular";
+	font-weight: normal;
+	width: 253px;
+	height: 30px;
+	padding-top: 14px;
+	padding-left: 15px;
+}
+#main .content .project-manager .category .item .item-bottom{
+	float: left;
+	height: 31px;
+	width: 268px;
+	background-color: #f3f3f3;
+	border-radius: 0px 0px 6px 6px;
+}
+#main .content .project-manager .category .item .item-bottom .delete{
+	float: left;
+	height: 31px;
+	width: 88px;
+	border-radius: 0px 0px 0px 6px;
+}
+#main .content .project-manager .category .item .item-bottom .delete a{
+	float: left;
+	height: 24px;
+	width: 53px;
+	border-radius: 0px 0px 0px 6px;
+	color: #c1c1c1;
+	font-size: 12px;
+	font-weight: normal;
+	padding-top: 7px;
+	background: url("../images/delete-project.png") no-repeat 20px 11px #f3f3f3;
+	padding-left: 35px;
+}
+#main .content .project-manager .category .item .item-bottom .delete a:hover{
+	background: url("../images/delete-project.png") no-repeat 20px 11px #e4e4e4;
+}
+#main .content .project-manager .category .item .item-bottom .hold{
+	float: left;
+	height: 31px;
+	width: 92px;
+	border-radius: 0px 0px 0px 0px;
+}
+#main .content .project-manager .category .item .item-bottom .hold a{
+	float: left;
+	height: 24px;
+	width: 55px;
+	border-radius: 0px 0px 0px 0px;
+	color: #c1c1c1;
+	font-size: 12px;
+	font-weight: normal;
+	padding-top: 7px;
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+	background: url("../images/pause-project.png") no-repeat 20px 11px #f3f3f3;
+	padding-left: 35px;
+}
+
+#main .content .project-manager .category .item .item-bottom .hold a:hover{
+	background: url("../images/pause-project.png") no-repeat 20px 11px #e4e4e4;
+}
+#main .content .project-manager .category .item .item-bottom .actived{
+	float: left;
+	height: 31px;
+	width: 88px;
+	border-radius: 0px 0px 6px 0px;
+}
+#main .content .project-manager .category .item .item-bottom .actived a{
+	float: left;
+	height: 24px;
+	width: 53px;
+	border-radius: 0px 0px 6px 0px;
+	color: #c1c1c1;
+	font-size: 12px;
+	padding-top: 7px;
+	font-weight: normal;
+	padding-left: 35px;
+	background: url("../images/check-project.png") no-repeat 20px 11px #f3f3f3;
+}
+#main .content .project-manager .category .item .item-bottom .actived a:hover{
+	background: url("../images/check-project.png") no-repeat 20px 11px #e4e4e4;
+	
+}

@@ -1,0 +1,311 @@
+.add-project{
+	float: left;
+	width: 962px;
+	height: 669px;
+	background-color: #ffffff;
+	border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.add-project h1{
+	float: left;
+	width: 840px;
+	height: 35px;
+	border-radius: 6px 0px 0px 0px;
+	color: #ffffff;
+	font-family: "OpenSansBold";
+	font-size: 15px;
+	font-weight: normal;
+	text-transform:uppercase;
+	background: url("../images/title-add-category.png") no-repeat 41px 15px #1d8eb8;
+	padding-top: 15px;
+	padding-left: 72px;
+	
+}
+.add-project .close{
+	float: right;
+	width: 50px;
+	height: 50px;
+	border-radius: 0px 6px 0px 0px;
+	display: block;
+	background: url("../images/close-add-category.png") no-repeat 16px 14px  #28b1e4;
+	
+}
+.add-project .project-top{
+	float:left;
+	width: 962px;
+	height: 148px;
+	margin-left: 0px;
+	margin-top: 0px;
+	border-bottom: 1px dashed #d1d1d1;
+	background-color: #f8f8f8;
+}
+.add-project .project-top .left{
+	float:left;
+	width: 302px;
+	height: 56px;
+	margin-left: 38px;
+	margin-top: 25px;
+	background: url("../images/top-project.png") no-repeat 1px 1px;
+	color: #383838;
+	font-size: 14px;
+	font-family: "OpenSansLight";
+	font-weight: normal;
+	padding-left: 94px;
+	padding-top: 20px;
+	line-height: 19px;
+}
+.add-project .project-top .left .bluebold{
+	color: #1d8eb8;
+	font-weight: bold;
+	
+}
+.add-project .project-top .right{
+  	color: #383838;
+    float: left;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+    font-weight: normal;
+    height: 53px;
+    line-height: 19px;
+    margin-left: 76px;
+    margin-top: 63px;
+    padding-left: 0;
+    padding-top: 0;
+    width: 302px;
+}
+.add-project .project-top .right .bluebold{
+	color: #1d8eb8;
+	font-weight: bold;
+}
+.add-project .project-top .right .bluelight{
+	color: #1d8eb8;
+	font-weight: normal;
+}
+.add-project .project-bottom{
+	float:left;
+	width: 962px;
+	height: 460px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.add-project .project-bottom .left{
+	float:left;
+	width: 481px;
+	height: 460px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.add-project .project-bottom .left .leftpadding{
+	float:left;
+	width: 400px;
+	height: 385px;
+	margin-left: 40px;
+	margin-top: 35px;
+}
+.add-project .project-bottom .left .leftpadding label{
+	font-size: 15px;
+	font-family: "OpenSansRegular";
+	color: #383838;
+	font-weight: normal;
+}
+.add-project .project-bottom .left .leftpadding input[ type="text"]{
+	font-size: 14px;
+	font-family: Arial;
+	color: #696969;
+	font-weight: normal;
+}
+.add-project .project-bottom .left .leftpadding select{
+	font-size: 14px;
+	font-family: Arial;
+	color: #696969;
+	font-weight: normal;
+}
+
+.add-project .project-bottom .left .leftpadding label[for="website-name"]{
+	width:400px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 3px;
+}
+.add-project .project-bottom .left .leftpadding #website-name{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:389px;
+	height: 25px;
+	margin-top: 12px;
+	padding: 6px 4px;
+}
+.add-project .project-bottom .left .leftpadding label[for="website-address"]{
+	width:171px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 34px;
+}
+.add-project .project-bottom .left .leftpadding .linkproject{
+	width:192px;
+	float: left;
+	margin-left: 33px;
+	margin-top: 34px;
+	font-size: 12px;
+	font-family: "OpenSansItalic";
+	color: #939393;
+	font-weight: normal;
+}
+.add-project .project-bottom .left .leftpadding #website-address{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:389px;
+	height: 25px;
+	margin-top: 12px;
+	padding: 6px 4px;
+}
+.add-project .project-bottom .left .leftpadding label[for="timingstart"]{
+	width:400px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 34px;
+}
+.add-project .project-bottom .left .leftpadding #timingstart{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:183px;
+	height: 25px;
+	margin-top: 12px;
+	padding: 6px 4px;
+	background: url("../images/icon-date-pic.png") no-repeat 97% 11px;
+}
+.add-project .project-bottom .left .leftpadding #timingend{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:183px;
+	height: 25px;
+	margin-left:11px;
+	margin-top: 12px;
+	padding: 6px 4px;
+	background: url("../images/icon-date-pic.png") no-repeat 97% 11px;
+}
+
+.add-project .project-bottom .left .leftpadding label[for="searchengine"]{
+	width:400px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 34px;
+}
+.add-project .project-bottom .left .leftpadding #searchengine{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:396px;
+	height: 39px;
+	margin-top: 12px;
+	padding: 6px 4px;
+}
+
+
+
+
+
+
+
+.add-project .project-bottom .right{
+	float:left;
+	width: 481px;
+	height: 460px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.add-project .project-bottom .right .leftpadding{
+	float:left;
+	width: 417px;
+	height: 385px;
+	margin-left: 29px;
+	margin-top: 35px;
+}
+.add-project .project-bottom .right .leftpadding label{
+	font-size: 15px;
+	font-family: "OpenSansRegular";
+	color: #383838;
+	font-weight: normal;
+}
+.add-project .project-bottom .right .leftpadding textarea{
+	font-size: 14px;
+	font-family: Arial;
+	color: #696969;
+	font-weight: normal;
+}
+
+.add-project .project-bottom .right .leftpadding label[for="keyword"]{
+	width:171px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 3px;
+}
+.add-project .project-bottom .right .leftpadding .linkproject{
+	width:192px;
+	float: left;
+	margin-left: 33px;
+	margin-top: 0px;
+	font-size: 12px;
+	font-family: "OpenSansItalic";
+	color: #939393;
+	font-weight: normal;
+}
+
+.add-project .project-bottom .right .leftpadding #keyword{
+	border: 1px solid #e9e9e9;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	width:389px;
+	height: 173px;
+	margin-top: 12px;
+	padding: 6px 4px;
+}
+.add-project .project-bottom .right .leftpadding .btn-add-project{
+	float: left;
+	width:150px;
+	height: 40px;
+	background: url("../images/btn-add-project.png") no-repeat;
+	margin-left: 0px;
+	margin-top: 25px;
+	border: none;
+	cursor: pointer;
+}
+.add-project .project-bottom .right .leftpadding .btn-cancel-project{
+	float: left;
+	width:102px;
+	height: 40px;
+	background: url("../images/btn-cancel-project.png") no-repeat;
+	margin-left: 15px;
+	margin-top: 25px;
+	border: none;
+	cursor: pointer;
+}
+.add-project .project-bottom .right .leftpadding .dashtext{
+	float: left;
+	width: 405px;
+	height: 1px;
+	border-bottom: 1px solid #f4f4f4;
+	margin-top: 21px;
+}
+.add-project .project-bottom .right .leftpadding .textbot{
+ 	color: #383838;
+    float: left;
+    font-family: "OpenSansRegular";
+    font-size: 13px;
+    font-weight: normal;
+    height: 71px;
+    line-height: 21px;
+    margin-left: 1px;
+    margin-top: 10px;
+    width: 417px;
+}
+.add-project .project-bottom .right .leftpadding .textbot .fontlight{
+    font-family: "OpenSansLight";
+}
+.add-project .project-bottom .right .leftpadding .bluex{
+	color: #1d8eb8;
+}

@@ -1,0 +1,5 @@
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Common\bin\Debug\FingertzApp.Common.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Common\bin\Debug\FingertzApp.Common.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Common\obj\Debug\FingertzApp.Common.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Common\obj\Debug\FingertzApp.Common.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Common\obj\Debug\FingertzApp.Common.csprojResolveAssemblyReference.cache

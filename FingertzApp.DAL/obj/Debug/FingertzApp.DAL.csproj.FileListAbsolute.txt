@@ -1,0 +1,9 @@
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\bin\Debug\FingertzApp.DAL.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\bin\Debug\FingertzApp.DAL.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\bin\Debug\EntityFramework.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\bin\Debug\FingertzApp.Model.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\bin\Debug\FingertzApp.Model.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\bin\Debug\EntityFramework.xml
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\obj\Debug\FingertzApp.DAL.csprojResolveAssemblyReference.cache
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\obj\Debug\FingertzApp.DAL.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.DAL\obj\Debug\FingertzApp.DAL.pdb

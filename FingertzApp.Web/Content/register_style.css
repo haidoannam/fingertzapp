@@ -1,0 +1,359 @@
+body{
+	background: url("../images/backgroud-home.png") repeat left top;
+/* 	background-color: #f4f4f4; */
+	color: #383838;
+	font: 11px/17px "OpenSansRegular",Helvetica,Arial,sans-serif;
+	min-width: 971px;
+}
+#wrapper{
+/* 	background-color: #f4f4f4;	 */
+}
+#wrapper-in{
+/* 	background-color: #f4f4f4; */
+}
+#header{
+	height: 99px;
+	position: relative;
+	z-index: 1;
+	
+}
+#header .content{
+	margin: 0 auto;
+	width: 971px;
+	position: relative;
+	min-height: 99px;
+}
+
+
+#main{
+	width: 971px;
+	height: auto !important;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	min-height: 463px;
+	padding-bottom: 40px;
+	
+}
+#main .content{
+	float: left;
+	min-height: 463px;
+	width: 971px;
+	z-index: 1;
+}
+#main .content .login{
+	float: left;
+	min-height:472px;
+	width: 971px;
+    margin-left: 1px;
+    margin-top: 1px;
+    background-color: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+#main .content .login .headers{
+	float: left;
+	height: 88px;
+	width: 100%;
+	background-color: #F8F8F8;
+	border-radius: 6px 6px 0px 0px;
+	border-bottom: 1px dashed #cecece;
+}
+#main .content .login .headers .logo{
+	float: left;
+    height: 47px;
+    margin-left: 30px;
+    margin-top: 27px;
+    width: 174px;
+}
+#main .content .login .contain{
+	float: left;
+	height: 374px;
+	width: 100%;
+}
+#main .content .login .contain .left{
+	float: left;
+	height: 334px;
+	width: 438px;
+}
+
+#main .content .login .contain .left input{
+	border: 1px solid #e9e9e9;
+	background-color: #fcfcfc;
+	 border-radius: 5px 5px 5px 5px;
+	 height: 27px;
+	 color: #939393;
+	 font-size: 14px;
+	 font-family: Arial;
+	 padding: 6px 4px;
+}
+
+#main .content .login .contain .left label{
+	font-size: 15px;
+	color: #383838;
+}
+#main .content .login .contain .left>div{
+	float: left;
+}
+#main .content .login .contain .left .titlecompanyname{
+	float: left;
+	width: 393px;
+	height: 20px;
+	margin-top: 38px;
+	margin-left: 43px;
+}
+#companyname{
+	float: left;
+	width: 393px;
+	height: 39px;
+	margin-top: 10px;
+	margin-left: 43px;
+}
+#shortname{
+	float: right;
+	margin-top: 10px;
+/* 	margin-left: 43px; */
+	width: 277px;
+}
+#main .content .login .contain .left .titleshortname{
+	float: left;
+	width: 393px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 43px;
+}
+#main .content .login .contain .left .linskshortname{
+	float: left;
+    height: 52px;
+    margin-left: 10px;
+    margin-top: 1px;
+    width: 436px;
+}
+#main .content .login .contain .left .links{
+	float: left;
+	margin-top: 22px;
+	margin-left: 38px;
+	font-size: 13px;
+	color: #383838;
+	width: 95px;
+	height: 19px;
+	
+}
+#main .content .login .contain .left .urllink{
+	float: left;
+	margin-top: 22px;
+	margin-left: 43px;
+	font-size: 15px;
+	color: #383838;
+}
+#main .content .login .contain .left .urllink span{
+	float: left;
+	margin-left: 1px;
+	font-size: 15px;
+	color: #383838;
+}
+#main .content .login .contain .left .urllink a{
+	float: left;
+	margin-left: 35px;
+	font-size: 15px;
+	color: #1d8eb8;
+	
+}
+#main .content .login .contain .left .firstlastname{
+	color: #1D8EB8;
+    float: left;
+    font-size: 15px;
+    margin-left: 36px;
+    margin-top:10px;
+    width: 406px;
+}
+#main .content .login .contain .left .firstlastname>div{
+	float: left;
+	width: 191px;
+	
+}
+
+#main .content .login .contain .left .firstlastname .titlefirstname{
+	float: left;
+	margin-left: 6px;
+	margin-top: 12px;
+}
+#main .content .login .contain .left .firstlastname .titlelastname{
+	float: left;
+	margin-left: 18px;
+	margin-top: 12px;
+}
+#firstname{
+	float: left;
+	width: 186px;
+	height: 39px;
+	margin-top: 13px;
+	margin-left: 4px;
+}
+#lastname{
+	float: left;
+	width: 186px;
+	height: 39px;
+	margin-top: 13px;
+	margin-left: 22px;
+}
+#main .content .login .contain .right{
+	float: left;
+	height: 334px;
+	width: 438px;
+}
+
+#main .content .login .contain .right input{
+	border: 1px solid #e9e9e9;
+	background-color: #fcfcfc;
+	 border-radius: 5px 5px 5px 5px;
+	 height: 27px;
+	 color: #939393;
+	 font-size: 14px;
+	 font-family: Arial;
+	 padding: 6px 4px;
+}
+#main .content .login .contain .right label{
+	font-size: 15px;
+	color: #383838;
+}
+#main .content .login .contain .right>div{
+	float: left;
+}
+#main .content .login .contain .right .titlecompanyname{
+	float: left;
+	width: 393px;
+	height: 20px;
+	margin-top: 38px;
+	margin-left: 43px;
+}
+#email{
+	float: left;
+    height: 39px;
+    margin-left: 36px;
+    margin-top: 10px;
+    width: 389px;
+}
+#shortname{
+	float: right;
+	margin-top: 10px;
+/* 	margin-left: 43px; */
+	width: 277px;
+}
+#main .content .login .contain .right .titleshortname{
+	float: left;
+	width: 393px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 43px;
+}
+#main .content .login .contain .right .linskshortname{
+	float: left;
+    height: 52px;
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 436px;
+}
+#main .content .login .contain .right .links{
+	float: left;
+	margin-top: 22px;
+	margin-left: 54px;
+	font-size: 13px;
+	color: #383838;
+	width: 95px;
+	height: 19px;
+	
+}
+#main .content .login .contain .right .urllink{
+	float: left;
+	margin-top: 22px;
+	margin-left: 43px;
+	font-size: 15px;
+	color: #383838;
+}
+#main .content .login .contain .right .urllink span{
+	float: left;
+	margin-left: 1px;
+	font-size: 15px;
+	color: #383838;
+}
+#main .content .login .contain .right .urllink a{
+	float: left;
+	margin-left: 58px;
+	font-size: 15px;
+	color: #1d8eb8;
+	
+}
+#main .content .login .contain .right .firstlastname{
+	color: #1D8EB8;
+    float: left;
+    font-size: 15px;
+    margin-left: 36px;
+    margin-top:0px;
+    width: 406px;
+}
+#main .content .login .contain .right .firstlastname>div{
+	float: left;
+	width: 191px;
+	
+}
+
+#main .content .login .contain .right .firstlastname .titlefirstname{
+	float: left;
+	margin-left: 6px;
+	margin-top: 12px;
+}
+#main .content .login .contain .right .firstlastname .titlelastname{
+	float: left;
+	margin-left: 18px;
+	margin-top: 12px;
+}
+#username{
+	float: left;
+	width: 183px;
+	height: 39px;
+	margin-top: 12px;
+	margin-left: 2px;
+}
+#password{
+	float: left;
+	width: 183px;
+	height: 39px;
+	margin-top: 12px;
+	margin-left: 15px;
+}
+#main .content .login .contain .right .submitregister{
+	 float: left;
+    height: 40px;
+    margin-left: 39px;
+    margin-top: 30px;
+    width: 398px;
+}
+#main .content .login .contain .right .submitregister input{
+	background: url("../images/register-login.png") no-repeat;
+	border: none;
+	width: 398px;
+	height: 40px;
+	cursor: pointer;
+}
+#main .content .login .contain .right{
+	float: left;
+	height: 334px;
+	width: 438px;
+}
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px 0 11px;
+	min-height: 52px;
+}
+#footer .content {
+	text-align:center;
+	width: 971px;
+	height: 52px;
+	margin: 0 auto;
+	color: #b6b6b6;
+	font-size: 15px;
+	
+}

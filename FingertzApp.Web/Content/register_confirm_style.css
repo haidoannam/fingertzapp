@@ -1,0 +1,118 @@
+body{
+	background: url("../images/backgroud-home.png") repeat left top;
+/* 	background-color: #f4f4f4; */
+	color: #383838;
+	font: 11px/17px "OpenSansRegular",Helvetica,Arial,sans-serif;
+	min-width: 474px;
+}
+#wrapper{
+/* 	background-color: #f4f4f4;	 */
+}
+#wrapper-in{
+/* 	background-color: #f4f4f4; */
+}
+#header{
+	height: 99px;
+	position: relative;
+	z-index: 1;
+	
+}
+#header .content{
+	margin: 0 auto;
+	width: 474px;
+	position: relative;
+	min-height: 99px;
+}
+
+
+#main{
+	width: 474px;
+	height: auto !important;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+	min-height: 389px;
+	padding-bottom: 40px;
+	
+}
+#main .content{
+	float: left;
+	min-height: 389px;
+	width: 474px;
+	z-index: 1;
+}
+#main .content .login{
+	float: left;
+	min-height:389px;
+	width: 474px;
+    margin-left: 1px;
+    margin-top: 1px;
+    background-color: #ffffff;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+#main .content .login .headers{
+	float: left;
+	height: 88px;
+	width: 100%;
+	background-color: #F8F8F8;
+	border-radius: 6px 6px 0px 0px;
+	border-bottom: 1px dashed #cecece;
+}
+#main .content .login .headers .logo{
+	float: left;
+    height: 47px;
+    margin-left: 168px;
+    margin-top: 25px;
+    width: 174px;
+}
+#main .content .login .contain{
+	float: left;
+	height: 314px;
+	width: 100%;
+}
+#main .content .login .contain h1{
+	font-family: "geoslabc";
+    font-size: 30px;
+    font-weight: normal;
+    color: #383838;
+   text-align: center; 
+   line-height: 36px;
+   margin-top: 25px;
+   
+}
+#main .content .login .contain h2{
+	font-family: "OpenSansRegular";
+    font-size: 15px;
+    font-weight: normal;
+    color: #7c7c7c;
+    text-align: center;
+    line-height: 30px;
+     margin-top: 25px;
+}
+#main .content .login .contain h2 .blue{
+    color: #1d8eb8;
+}
+#main .content .login .contain .login-page{
+	float: left;
+	margin-left: 36px;
+    margin-top: 19px;
+	background: url("../images/continue-login.png") no-repeat;   
+	width: 397px;
+	height: 40px;
+}
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px 0 11px;
+	min-height: 52px;
+}
+#footer .content {
+	text-align:center;
+	width: 474px;
+	height: 52px;
+	margin: 0 auto;
+	color: #b6b6b6;
+	font-size: 15px;
+	
+}

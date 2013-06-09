@@ -1,0 +1,88 @@
+﻿@model FingertzApp.Web.Models.UserRegisterModel
+  @{
+    ViewBag.Title = "Register";
+  }
+
+@using (Html.BeginForm("Index", "Register"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Register</legend>     
+
+        <div class="contain">
+	<form>
+		<div class="left">
+			<div class="titlecompanyname">
+                @Html.LabelFor(model => model.CompanyName)
+			</div>
+			<div>
+				@Html.EditorFor(model => model.CompanyName)
+                @Html.ValidationMessageFor(model => model.CompanyName)
+			</div>
+			<div class="titleshortname">
+				@Html.LabelFor(model => model.ShortName)
+			</div>
+			<div class="linskshortname">
+				<span class="links">fingertz.com/id/</span>
+				@Html.EditorFor(model => model.ShortName)
+                @Html.ValidationMessageFor(model => model.ShortName)
+			</div>
+			<div class="urllink"><span>URL Access</span><a id="linkdef">fingertz.com/id/example</a></div>
+			<div class="firstlastname">
+				<div>
+					<div class="titlefirstname">
+						@Html.LabelFor(model => model.FirstName)
+					</div>
+					<div>
+						@Html.EditorFor(model => model.FirstName)
+					</div>
+				</div>
+				<div>
+					<div class="titlelastname">
+						@Html.LabelFor(model => model.LastName)
+					</div>
+					<div>
+						@Html.EditorFor(model => model.LastName)
+					</div>										
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div class="titlecompanyname">
+				@Html.LabelFor(model => model.EmailAddress)
+			</div>
+			<div>
+				@Html.EditorFor(model => model.EmailAddress)
+			</div>
+									
+			<div class="firstlastname">
+				<div>
+					<div class="titlefirstname">
+						@Html.LabelFor(model => model.UserName)
+					</div>
+					<div>
+						@Html.EditorFor(model => model.UserName)
+					</div>
+				</div>
+				<div>
+					<div class="titlelastname">
+						@Html.LabelFor(model => model.Password)
+					</div>
+					<div>
+						@Html.EditorFor(model => model.EmailAddress)
+					</div>										
+				</div>
+			</div>	
+								
+		</div>
+	</form>
+</div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+

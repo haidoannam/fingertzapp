@@ -1,0 +1,9 @@
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\bin\Debug\FingertzApp.Model.dll.config
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\bin\Debug\FingertzApp.Model.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\bin\Debug\FingertzApp.Model.pdb
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\bin\Debug\EntityFramework.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\bin\Debug\EntityFramework.xml
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\obj\Debug\FingertzApp.Model.dll
+D:\Project\FingertzProject\FingertzApp\FingertzApp.Model\obj\Debug\FingertzApp.Model.pdb
